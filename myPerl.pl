@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w
 =for
 Program myPerl.pl mi primer programa escrito en perl
  
@@ -9,7 +9,8 @@ Copyright 2018
 
 =cut
 
+use warnings;
 use strict;
 
 
-print("Hello. World!");
+print "Hello. World!\n";
