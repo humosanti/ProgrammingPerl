@@ -14,3 +14,7 @@ use strict;
 
 
 print "Hello. World!\n";
+print 01101;
+
+print "\n";
+print 0xBEEF;
