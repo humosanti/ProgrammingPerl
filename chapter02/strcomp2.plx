@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 #
-# Program aside1
+# Program strcom2
 #
 # Written by Humberto Molinares
 # Copyright 2018
@@ -10,4 +10,5 @@
 use warnings;
 use strict;
 
-print 'ex\\ er\\',' ci\' se\'', "\n";
+print "Test one: ", "four" eq "six", "\n";
+print "Test two: ", "four" == "six", "\n";
